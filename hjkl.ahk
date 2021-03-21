@@ -1,5 +1,6 @@
-﻿#z::Run www.autohotkey.com
+#z::Run www.autohotkey.com
 
+CapsLock::Return
 ;---------------------------------------------
 ;Capslock + key mapping
 
@@ -74,20 +75,20 @@ return
 ;---------------------------------------------
 
 
-Capslock & '::
+Capslock & n::
     Send {Blind}{End down}
 return
 
-Capslock & ' up::
+Capslock & n up::
     Send {Blind}{End up}
 return
 
 
-Capslock & [::
+Capslock & u::
     Send {Blind}{Home down}
 return
 
-Capslock & [ up::
+Capslock & u up::
     Send {Blind}{Home up}
 return
 
